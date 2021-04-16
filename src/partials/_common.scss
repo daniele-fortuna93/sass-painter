@@ -7,4 +7,11 @@
 .container{
     margin: auto;
     width: $containerNormal;
+
+    &.container--medium{
+        width: $containerMedium;
+    }
+    &.container--small{
+        width: $containerSmall;
+    }
 }

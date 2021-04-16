@@ -1,7 +1,11 @@
 body{
     font-family: 'Roboto', sans-serif;
+    color: $textColor;
 }
 h1{
     color: #fff;
     font-size: $fontBig;
+}
+h2, h3{
+    font-size: $fontMedium;
 }
