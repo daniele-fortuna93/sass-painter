@@ -131,6 +131,9 @@ section {
 .box__img img {
   width: 100%;
 }
+.box__img video {
+  width: 100%;
+}
 .box__text {
   width: 40%;
   display: flex;
