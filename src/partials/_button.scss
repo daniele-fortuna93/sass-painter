@@ -1,0 +1,15 @@
+.btn{
+    color: #fff;
+    font-size: $fontNormal;
+    display: inline-block;
+    padding: 15px 25px;
+    margin-right: 10px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    
+    &--colored{
+        background-color: $mainColor;
+        border-color: $mainColor;
+    }
+}

@@ -1,3 +1,89 @@
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
 body {
-  background-color: red;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  color: #fff;
+  font-size: 50px;
+}
+
+.btn {
+  color: #fff;
+  font-size: 20px;
+  display: inline-block;
+  padding: 15px 25px;
+  margin-right: 10px;
+  border-radius: 20px;
+  background-color: transparent;
+  border: 2px solid #fff;
+}
+.btn--colored {
+  background-color: #1473e6;
+  border-color: #1473e6;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: auto;
+  width: 1200px;
+}
+
+.jumbotron {
+  height: 700px;
+  display: flex;
+  background-image: url("https://cc-prod.scene7.com/is/image/CCProdAuthor/dt-ps-max-poster-image?$pjpeg$&jpegSize=300&wid=1440");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.jumbotron__img {
+  width: 50px;
+}
+.jumbotron p {
+  color: #fff;
+  font-size: 22px;
 }
