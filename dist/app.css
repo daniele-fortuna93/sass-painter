@@ -126,6 +126,7 @@ section {
 }
 .box__img {
   width: 60%;
+  padding: 20px;
 }
 .box__img img {
   width: 100%;
